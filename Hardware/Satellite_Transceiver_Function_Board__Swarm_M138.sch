@@ -8759,9 +8759,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="New_Parts">
 <packages>
 <package name="SC-70-6">
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="21"/>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="21"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="21"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="51"/>
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="51"/>
@@ -8801,24 +8799,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="MIC94064/5">
-<description>The MIC94064 and MIC94065 are high-side load
+<description>&lt;p&gt;The MIC94064 and MIC94065 are high-side load
 switches designed for operation between 1.7V to 5.5V.
 The devices contain a low on-resistance P-channel
-MOSFET that supports over 2A of continuous current.
-&lt;br&gt;&lt;br&gt;
-The MIC94064/5 provides a slew rate controlled SoftStart turn-on of 115µs (typical) to prevent in-rush current
-from glitching supply rails.
-&lt;br&gt;&lt;br&gt;
-The MIC94065 features an active load discharge circuit
+MOSFET that supports over 2A of continuous current.&lt;/p&gt;
+&lt;p&gt;The MIC94064/5 provides a slew rate controlled SoftStart turn-on of 115µs (typical) to prevent in-rush current
+from glitching supply rails.&lt;/p&gt;
+&lt;p&gt;The MIC94065 features an active load discharge circuit
 which insures capacitive loads retain no charge when
-the main switch is in an OFF state.
-&lt;br&gt;&lt;br&gt;
-An active pull-down on the enable input keeps
+the main switch is in an OFF state.&lt;/p&gt;
+&lt;p&gt;An active pull-down on the enable input keeps
 MIC94064/5 in a default OFF state until the EN pin is
 pulled to a high level. Built-in level shift circuitry allows
 low voltage logic signals to switch higher supply
 voltages, or vice versa; high level logic signals can
-control low level voltages.</description>
+control low level voltages.&lt;/p&gt;
+&lt;p&gt;&lt;a href=http://ww1.microchip.com/downloads/en/DeviceDoc/mic94064-5.pdf&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="U1" symbol="MIC94064/5" x="0" y="0"/>
 </gates>
@@ -8832,7 +8828,7 @@ control low level voltages.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-16794" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8917,6 +8913,12 @@ control low level voltages.</description>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="U2" library="New_Parts" deviceset="MIC94064/5" device="_MIC94064YC6"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
+<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8954,15 +8956,15 @@ TX: 550mA Typ. / 600mA Peak
 <instance part="FD2" gate="G$1" x="241.3" y="43.18" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="238.76" y="43.18" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="238.76" y="45.72" smashed="yes"/>
-<instance part="C2" gate="G$1" x="48.26" y="50.8" smashed="yes">
-<attribute name="NAME" x="49.784" y="53.721" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="49.784" y="48.641" size="1.778" layer="96" font="vector"/>
+<instance part="C2" gate="G$1" x="22.86" y="50.8" smashed="yes">
+<attribute name="NAME" x="24.384" y="53.721" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="24.384" y="48.641" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND19" gate="1" x="27.94" y="43.18" smashed="yes">
-<attribute name="VALUE" x="27.94" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND19" gate="1" x="33.02" y="43.18" smashed="yes">
+<attribute name="VALUE" x="33.02" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND20" gate="1" x="48.26" y="43.18" smashed="yes">
-<attribute name="VALUE" x="48.26" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND20" gate="1" x="22.86" y="43.18" smashed="yes">
+<attribute name="VALUE" x="22.86" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="C3" gate="G$1" x="22.86" y="22.86" smashed="yes">
 <attribute name="NAME" x="24.384" y="25.781" size="1.778" layer="95" font="vector"/>
@@ -9006,8 +9008,8 @@ TX: 550mA Typ. / 600mA Peak
 <instance part="LOGO3" gate="G$1" x="210.82" y="50.8" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="172.72" y="45.72" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="172.72" y="45.72" smashed="yes"/>
-<instance part="SUPPLY16" gate="G$1" x="48.26" y="58.42" smashed="yes">
-<attribute name="VALUE" x="48.26" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY16" gate="G$1" x="22.86" y="58.42" smashed="yes">
+<attribute name="VALUE" x="22.86" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="H5" gate="G1" x="167.64" y="157.48" smashed="yes">
 <attribute name="NAME" x="165.1" y="160.02" size="1.778" layer="95"/>
@@ -9107,12 +9109,12 @@ TX: 550mA Typ. / 600mA Peak
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="C1" gate="G$1" x="27.94" y="50.8" smashed="yes">
-<attribute name="NAME" x="29.464" y="53.721" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="29.464" y="48.641" size="1.778" layer="96" font="vector"/>
+<instance part="C1" gate="G$1" x="33.02" y="50.8" smashed="yes">
+<attribute name="NAME" x="34.544" y="53.721" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="34.544" y="48.641" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="27.94" y="58.42" smashed="yes">
-<attribute name="VALUE" x="27.94" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="33.02" y="58.42" smashed="yes">
+<attribute name="VALUE" x="33.02" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U2" gate="U1" x="114.3" y="48.26" smashed="yes">
 <attribute name="NAME" x="106.68" y="55.88" size="1.778" layer="95"/>
@@ -9120,6 +9122,26 @@ TX: 550mA Typ. / 600mA Peak
 </instance>
 <instance part="GND5" gate="1" x="101.6" y="38.1" smashed="yes">
 <attribute name="VALUE" x="101.6" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="C8" gate="G$1" x="53.34" y="50.8" smashed="yes">
+<attribute name="NAME" x="54.864" y="53.721" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="54.864" y="48.641" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND6" gate="1" x="43.18" y="43.18" smashed="yes">
+<attribute name="VALUE" x="43.18" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND7" gate="1" x="53.34" y="43.18" smashed="yes">
+<attribute name="VALUE" x="53.34" y="42.926" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="53.34" y="58.42" smashed="yes">
+<attribute name="VALUE" x="53.34" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C9" gate="G$1" x="43.18" y="50.8" smashed="yes">
+<attribute name="NAME" x="44.704" y="53.721" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="44.704" y="48.641" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="43.18" y="58.42" smashed="yes">
+<attribute name="VALUE" x="43.18" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -9129,12 +9151,12 @@ TX: 550mA Typ. / 600mA Peak
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="45.72" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="45.72" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="45.72" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="45.72" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -9204,6 +9226,16 @@ TX: 550mA Typ. / 600mA Peak
 <wire x1="104.14" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="45.72" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="45.72" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9297,7 +9329,7 @@ TX: 550mA Typ. / 600mA Peak
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY16" gate="G$1" pin="VIN"/>
-<wire x1="48.26" y1="55.88" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="55.88" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VDD"/>
@@ -9308,13 +9340,23 @@ TX: 550mA Typ. / 600mA Peak
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VIN"/>
-<wire x1="27.94" y1="55.88" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="55.88" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="VOUT"/>
 <wire x1="124.46" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VIN"/>
 <wire x1="127" y1="53.34" x2="127" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
+<wire x1="53.34" y1="55.88" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="SUPPLY11" gate="G$1" pin="VIN"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
