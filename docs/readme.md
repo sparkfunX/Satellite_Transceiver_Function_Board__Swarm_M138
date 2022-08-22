@@ -1,0 +1,1 @@
+This folder contains the assets and markdown files for the [SparkX Swarm MicroMod Function Board (SPX-20107) Product Manual](https://docs.sparkfunx.com/Satellite_Transceiver_Function_Board__Swarm_M138) that are rendered with [mkdocs](https://www.mkdocs.org/).
