@@ -2,10 +2,10 @@
 
 The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple board. The following is a summary of its features and functions:
 
-* **`Power`** - Power for the Swarm M138 modem is drawn from the MicroMod **VIN** pins
+* **`Power`** - Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins
     * The modem requires 3.0V<sub>Minimum</sub>, 5.0V<sub>Maximum</sub>
-    * **VIN** will be 5.0V when the MicroMod Main Board is powered via USB-C
-    * **VIN** will be between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery
+    * **VCC** will be 5.0V when the MicroMod Main Board is powered via USB-C
+    * **VCC** will be between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery
 * **`High-Side Power Switch`** - Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switch
     * By default, the modem power is turned off
     * Modem power can be enabled by pulling the **PWR_EN** pin high
@@ -67,7 +67,7 @@ There is no connection to pins that have a "-" under the primary function.
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
-        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VIN</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
         <td style="vertical-align:middle" align="center"><b>74</b></td>
         <td style="vertical-align:middle" align="center"><b>73</b></td>
         <td style="vertical-align:middle" align="center" bgcolor="#ea4335">3.3V</td>
@@ -75,7 +75,7 @@ There is no connection to pins that have a "-" under the primary function.
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
-        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VIN</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
         <td style="vertical-align:middle" align="center"><b>72</b></td>
         <td style="vertical-align:middle" align="center"><b>71</b></td>
         <td style="vertical-align:middle" align="center" bgcolor="#ea4335">PWR_EN</td>
@@ -393,10 +393,10 @@ The table below provides an example for the [Artemis Processor Board](https://ww
         </th>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#ea4335">VIN</td>
+        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
         <td style="vertical-align:middle" align="center">Power</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VIN</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VIN</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
     </tr>
     <tr>
         <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
@@ -439,9 +439,9 @@ The table below provides an example for the [Artemis Processor Board](https://ww
 
 ## Power Control (High-Side Power Switch)
 
-Power for the Swarm M138 modem is drawn from the MicroMod **VIN** pins. The modem requires 3.0V<sub>Minimum</sub>, 5.0V<sub>Maximum</sub>.
+Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins. The modem requires 3.0V<sub>Minimum</sub>, 5.0V<sub>Maximum</sub>.
 
-**VIN** will be 5.0V when the MicroMod Main Board is powered via USB-C, and between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery.
+**VCC** will be 5.0V when the MicroMod Main Board is powered via USB-C, and between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery.
 
 Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switch.
 
@@ -459,7 +459,7 @@ If required, the **EN** split pad jumper can be soldered closed to permanently e
 
 ## Current Consumption
 
-The modem's average current draw and peak draw during transmit depend on the supply voltage **VIN**.
+The modem's average current draw and peak draw during transmit depend on the supply voltage **VCC**.
 For more details, please consult the [Satellite Transceiver Breakout - Swarm M138 - Hookup Guide](https://learn.sparkfun.com/tutorials/satellite-transceiver-breakout---swarm-m138---hookup-guide#current-draw).
 
 When the **PWR_EN** pin is pulled low, the modem is powered off completely. The MIC94064 has a very low quiescent current of 2&micro;A.
