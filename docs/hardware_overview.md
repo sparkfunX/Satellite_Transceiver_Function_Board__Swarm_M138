@@ -3,24 +3,24 @@
 The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple board. The following is a summary of its features and functions:
 
 * **`Power`** - Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins
-    * The modem requires 3.0V<sub>Minimum</sub>, 5.0V<sub>Maximum</sub>
+    * The modem requires 3.0V<sub>Min</sub>, 5.0V<sub>Max</sub>
     * **VCC** will be 5.0V when the MicroMod Main Board is powered via USB-C
     * **VCC** will be between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery
 * **`High-Side Power Switch`** - Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switch
     * By default, the modem power is turned off
     * Modem power can be enabled by pulling the **PWR_EN** pin high
-        * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
+        * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the [table below](#example-pin-connection-table) for example pins
     * Modem power can be disabled by pulling the **PWR_EN** pin low or leaving it unconnected
     * The **EN** split pad jumper can be soldered closed to permanently enable modem power
 * **`TX and RX`** - The M138 modem uses 3.3V serial (UART) to communicate at 115200 baud (8 data bits, 1 stop bit, no parity)
     * **TXO** and **RXI** are connected to UART pins on the MicroMod Processor
 * **`GPIO1`** - The modem's **GPIO1** pin can perform several functions
-    * **GPIO1** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
+    * **GPIO1** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the [table below](#example-pin-connection-table) for example pins
     * **GPIO1** can be configured as a "wake from sleep mode" input
     * **GPIO1** can be configured as a "unread messages", "unsent messages" or "sleep mode active" output
     * When configured as an output, **GPIO1** is "open drain". A configurable pull-up resistor provides the high logic level
 * **`TX/RX`** - The modem's TX/RX pin indicates if the modem is transmitting or receiving
-    * **TX/RX** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
+    * **TX/RX** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the [table below](#example-pin-connection-table) for example pins
     * **TX/RX** is high when the modem is transmitting, low when receiving
 * **`EEPROM`** - Like all MicroMod Function Boards, a small EEPROM is provided
     * The Processor Board can read the EEPROM to discover which Function Boards are connected
@@ -30,7 +30,7 @@ The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple b
 The board dimensions are illustrated in the drawing below. The listed measurements are in mm. The two mounting holes and two stand-offs are compatible with M2.5 screws.
 
 <center>
-[![Board Dimensions](./img/board_files/Dimensions.png){ width="200" }](./img/board_files/Dimensions.png)<br>
+[![Board Dimensions](./img/hookup_guide/Dimensions.png){ width="200" }](./img/hookup_guide/Dimensions.png)<br>
 *Board dimensions. (Click to enlarge)*
 </center>
 
@@ -44,18 +44,18 @@ There is no connection to pins that have a "-" under the primary function.
 
 <table  style="font-size:12.25px;width:100%">
     <tr>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
-        <th rowspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Bottom<br>
             Pin
         </th>
-        <th rowspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Top<br>
             Pin
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
     </tr>
@@ -375,25 +375,25 @@ The table below provides an example for the [Artemis Processor Board](https://ww
 
 <table  style="font-size:12.25px;width:100%">
     <tr>
-        <th rowspan="3" colspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="3" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Satellite Function Board<br>
             Pin Name
         </th>
-        <th rowspan="3" style="text-align:center; vertical-align:middle;">
+        <th rowspan="3" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Processor<br>
             I/O<br>
             Direction
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle;">
+        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
             Main Board's<br>
             Processor Pin
         </th>
     </tr>
     <tr>
-        <th style="text-align:center; vertical-align:middle; min-width:1rem;">
+        <th rowspan="1" colspan="1" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Slot 0
         </th>
-        <th style="text-align:center; vertical-align:middle; min-width:1rem;">
+        <th rowspan="1" colspan="1" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Slot 1
         </th>
     </tr>
