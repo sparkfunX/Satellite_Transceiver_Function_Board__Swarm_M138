@@ -6,7 +6,7 @@ Spot something wrong? Feel free to contribute our open-source design and documen
 
 All of this documentation can be modified by you! Please help us make it better.
 
-* These pages are contained in the [`docs` folder](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138/tree/main/docs) of the [SparkX Swarm MicroMod Function Board](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138) repository.
+* These pages are contained in the [`docs` folder](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138/tree/main/docs) of the [SparkX Satellite Transceiver Function Board - Swarm M138](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138) repository.
 
 ### Submit a Correction
 
@@ -20,7 +20,7 @@ All of this documentation can be modified by you! Please help us make it better.
 
 All of our designs are open-source! Please help us make it better.
 
-* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138/tree/main/Hardware) of the [SparkX Swarm MicroMod Function Board](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138) repository. 
+* Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138/tree/main/Hardware) of the [SparkX Satellite Transceiver Function Board - Swarm M138](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138) repository. 
 
 ### Sumbit a Design Improvement
 

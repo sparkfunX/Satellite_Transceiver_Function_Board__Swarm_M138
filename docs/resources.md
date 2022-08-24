@@ -5,13 +5,10 @@ For more resources related to the SparkX Swarm MicroMod Function Board, check ou
 * [Schematic](./board_files/Schematic.pdf) (PDF)
 * [Eagle Files](./board_files/Satellite_Transceiver_Function_Board__Swarm_M138_x04.zip) (ZIP)
 * [Board Dimensions](./board_files/Dimensions.png) (PNG)
-
 * [SparkFun MicroMod](https://www.sparkfun.com/micromod)
-
 * [Satellite Transceiver Breakout - Swarm M138](https://www.sparkfun.com/products/19236)
 * [Swarm Satellite Transceiver Breakout - Swarm M138 - Hookup Guide](https://learn.sparkfun.com/tutorials/satellite-transceiver-breakout---swarm-m138---hookup-guide)
 * [Modem Manual](https://cdn.sparkfun.com/assets/9/1/0/e/3/SwarmM138-Modem-Product-Manual.pdf)
-
 * [Swarm Satellite Arduino Library](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library)
 
 Swarm also provides great resources for their satellite modem: 

@@ -9,18 +9,18 @@ The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple b
 * **`High-Side Power Switch`** - Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switch
     * By default, the modem power is turned off
     * Modem power can be enabled by pulling the **PWR_EN** pin high
-        * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used
+        * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
     * Modem power can be disabled by pulling the **PWR_EN** pin low or leaving it unconnected
     * The **EN** split pad jumper can be soldered closed to permanently enable modem power
 * **`TX and RX`** - The M138 modem uses 3.3V serial (UART) to communicate at 115200 baud (8 data bits, 1 stop bit, no parity)
     * **TXO** and **RXI** are connected to UART pins on the MicroMod Processor
 * **`GPIO1`** - The modem's **GPIO1** pin can perform several functions
-    * **GPIO1** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used
+    * **GPIO1** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
     * **GPIO1** can be configured as a "wake from sleep mode" input
     * **GPIO1** can be configured as a "unread messages", "unsent messages" or "sleep mode active" output
     * When configured as an output, **GPIO1** is "open drain". A configurable pull-up resistor provides the high logic level
 * **`TX/RX`** - The modem's TX/RX pin indicates if the modem is transmitting or receiving
-    * **TX/RX** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used
+    * **TX/RX** is connected to a GPIO pin on the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. See the table below for example pins
     * **TX/RX** is high when the modem is transmitting, low when receiving
 * **`EEPROM`** - Like all MicroMod Function Boards, a small EEPROM is provided
     * The Processor Board can read the EEPROM to discover which Function Boards are connected
@@ -37,7 +37,9 @@ The board dimensions are illustrated in the drawing below. The listed measuremen
 ## M.2 Connector Pinout
 
 The pinout of the function board's M.2 edge connector (gold fingers) is defined in the following table.
+
 Note that the M.2 connector pins on opposing sides are offset from each other as indicated by the bottom pins where it says "(Not Connected)".
+
 There is no connection to pins that have a "-" under the primary function.
 
 <table  style="font-size:12.25px;width:100%">
@@ -243,10 +245,10 @@ There is no connection to pins that have a "-" under the primary function.
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
-        <td style="vertical-align:middle" align="center">-</td>
+        <td style="vertical-align:middle" align="center">Module Key</td>
         <td style="vertical-align:middle" align="center"><b>30</b></td>
         <td style="vertical-align:middle" align="center"><b>29</b></td>
-        <td style="vertical-align:middle" align="center">-</td>
+        <td style="vertical-align:middle" align="center">Module Key</td>
         <td style="vertical-align:middle" align="center"></td>
     </tr>
     <tr>
@@ -368,6 +370,7 @@ There is no connection to pins that have a "-" under the primary function.
 ## Example Pin Connection Table
 
 The pin connections depend on which [MicroMod](https://www.sparkfun.com/micromod) Main Board and Processor Board are being used.
+
 The table below provides an example for the [Artemis Processor Board](https://www.sparkfun.com/products/16401) and the [Main Board - Double](https://www.sparkfun.com/products/18576).
 
 <table  style="font-size:12.25px;width:100%">
@@ -385,10 +388,12 @@ The table below provides an example for the [Artemis Processor Board](https://ww
             Main Board's<br>
             Processor Pin
         </th>
-        <th style="text-align:center; vertical-align:middle;">
+    </tr>
+    <tr>
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;">
             Slot 0
         </th>
-        <th style="text-align:center; vertical-align:middle;">
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;">
             Slot 1
         </th>
     </tr>
