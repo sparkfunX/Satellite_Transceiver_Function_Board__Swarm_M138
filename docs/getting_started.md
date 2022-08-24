@@ -32,6 +32,23 @@ To get started, users will need a few items. Now some users may have a few of th
             </a>
             SPX-19236
         </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://www.sparkfun.com/products/18575">
+                <center><img src="https://cdn.sparkfun.com//assets/parts/1/8/0/4/2/18575-SparkFun_MicroMod_Main_Board_-_Single-01.jpg" alt="SparkFun MicroMod Main Board - Single" height="140"></center>
+                <h3 class="title">SparkFun MicroMod Main Board - Single</h3>
+            </a>
+            DEV-18575
+        </td>
+        <td>
+            <a href="https://www.sparkfun.com/products/18576">
+                <center><img src="https://cdn.sparkfun.com//assets/parts/1/8/0/4/3/18576-SparkFun_MicroMod_Main_Board_-_Double-01.jpg" alt="SparkFun MicroMod Main Board - Double" height="140"></center>
+                <h3 class="title">SparkFun MicroMod Main Board - Double</h3>
+            </a>
+            DEV-18576
+        </td>
+    </tr>
 </table>
 
 ### Li-Po Battery

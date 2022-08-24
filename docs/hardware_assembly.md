@@ -11,10 +11,10 @@ or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18575).
         <img src="https://cdn.sparkfun.com//assets/learn_tutorials/1/1/8/9/MicroMod_Hardware_Hookup.gif"></a>
     </p>
 
-Insert your chosen Processor and GNSS Function board at an angle into the M.2 connector. The Processor Board will stick up at an angle (at around 25°).
+Insert the function board at an angle into the M.2 connector. The board will stick up at an angle (at around 25°).
 
 <center>
-[![Jumpers](./img/hookup_guide/FB_insert.jpg){ width="200" }](./img/hookup_guide/FB_insert.jpg)<br>
+[![Function Board Insertion](./img/hookup_guide/FB_insert.png){ width="200" }](./img/hookup_guide/FB_insert.png)<br>
 *Inserting the function board. (Click to enlarge)*
 </center>
 
@@ -31,7 +31,7 @@ Now it is time to insert and secure the M138 modem.
 Insert the modem at an angle into the M.2 connector. The modem will stick up at an angle (at around 25°).
 
 <center>
-[![Jumpers](./img/hookup_guide/modem_insert.jpg){ width="200" }](./img/hookup_guide/modem_insert.jpg)<br>
+[![Modem Insertion](./img/hookup_guide/modem_insert.png){ width="200" }](./img/hookup_guide/modem_insert.png)<br>
 *Inserting the modem. (Click to enlarge)*
 </center>
 
@@ -41,7 +41,7 @@ By swapping between the two and tightening each one a little at a time, you can 
 After securing the modem, your setup should look like the image below.
 
 <center>
-[![Jumpers](./img/hookup_guide/assembly.jpg){ width="200" }](./img/hookup_guide/assembly.jpg)<br>
+[![Completed Assembly](./img/hookup_guide/assembly.png){ width="200" }](./img/hookup_guide/assembly.png)<br>
 *The function board and modem, assembled. (Click to enlarge)*
 </center>
 
