@@ -61,7 +61,7 @@ There is no connection to pins that have a "-" under the primary function.
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
-        <td style="vertical-align:middle" align="center">(Not Connected)</td>
+        <td style="vertical-align:middle" align="center">(Not<br>Connected)</td>
         <td style="vertical-align:middle" align="center"></td>
         <td style="vertical-align:middle" align="center"><b>75</b></td>
         <td style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
@@ -384,7 +384,7 @@ The table below provides an example for the [Artemis Processor Board](https://ww
             I/O<br>
             Direction
         </th>
-        <th style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
+        <th colspan="2" style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
             Main Board's<br>
             Processor Pin
         </th>
@@ -444,7 +444,7 @@ The table below provides an example for the [Artemis Processor Board](https://ww
 
 ## Power Control (High-Side Power Switch)
 
-Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins. The modem requires 3.0V<sub>Minimum</sub>, 5.0V<sub>Maximum</sub>.
+Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins. The modem requires 3.0V<sub>Min</sub>, 5.0V<sub>Max</sub>.
 
 **VCC** will be 5.0V when the MicroMod Main Board is powered via USB-C, and between 3.6V and 4.2V when the MicroMod Main Board is drawing power from a LiPo battery.
 
@@ -453,7 +453,7 @@ Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switc
 Modem power can be disabled by pulling the **PWR_EN** pin low or leaving it unconnected. By default, the modem power is turned off. 
 
 Modem power can be enabled by pulling the **PWR_EN** pin high. **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used.
-See the table above for example pins.
+See the [table above](#example-pin-connection-table) for example pins.
 
 If required, the **EN** split pad jumper can be soldered closed to permanently enable modem power.
 
@@ -493,6 +493,6 @@ There are three jumpers on the back of the board that can be used to modify how 
     </p>
 
 <center>
-[![Jumpers](./img/hookup_guide/jumpers.jpg){ width="200" }](./img/hookup_guide/jumpers.jpg)<br>
+[![Jumpers](./img/hookup_guide/jumpers.png){ width="200" }](./img/hookup_guide/jumpers.png)<br>
 *The jumpers on the back of the function board. (Click to enlarge)*
 </center>
