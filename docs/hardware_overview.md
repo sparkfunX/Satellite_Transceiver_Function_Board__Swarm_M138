@@ -42,20 +42,20 @@ Note that the M.2 connector pins on opposing sides are offset from each other as
 
 There is no connection to pins that have a "-" under the primary function.
 
-<table  style="font-size:12.25px;width:100%">
+<table style="font-size:12.25px; width:100%">
     <tr>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
+        <th colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Bottom<br>
             Pin
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Top<br>
             Pin
         </th>
-        <th style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
+        <th colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
     </tr>
@@ -375,16 +375,16 @@ The table below provides an example for the [Artemis Processor Board](https://ww
 
 <table  style="font-size:12.25px;width:100%">
     <tr>
-        <th rowspan="3" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
+        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Satellite Function Board<br>
             Pin Name
         </th>
-        <th rowspan="3" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
+        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Processor<br>
             I/O<br>
             Direction
         </th>
-        <th rowspan="2" style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
+        <th style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
             Main Board's<br>
             Processor Pin
         </th>
@@ -398,46 +398,46 @@ The table below provides an example for the [Artemis Processor Board](https://ww
         </th>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
         <td style="vertical-align:middle" align="center">Power</td>
         <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
         <td style="vertical-align:middle" align="center" bgcolor="#ea4335">VCC</td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
+        <td style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
         <td style="vertical-align:middle" align="center">Power</td>
         <td style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
         <td style="vertical-align:middle" align="center" bgcolor="#0000000"><font style="color: white; background: black;">GND</font></td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#ea4335">PWR_EN</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#ea4335">PWR_EN</td>
         <td style="vertical-align:middle" align="center">O</td>
         <td style="vertical-align:middle" align="center">PWR_EN0<br>(SDIO_DATA2)</td>
         <td style="vertical-align:middle" align="center">PWR_EN1<br>(SDIO_DATA1)</td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#4285f4">TXO</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">TXO</td>
         <td style="vertical-align:middle" align="center">I</td>
         <td style="vertical-align:middle" align="center" bgcolor="#4285f4">RX1</td>
         <td style="vertical-align:middle" align="center" bgcolor="#4285f4">RX2</td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center" bgcolor="#4285f4">RXI</td>
+        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">RXI</td>
         <td style="vertical-align:middle" align="center">O</td>
         <td style="vertical-align:middle" align="center" bgcolor="#4285f4">TX1</td>
         <td style="vertical-align:middle" align="center" bgcolor="#4285f4">TX2</td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center">GPIO1</td>
+        <td style="vertical-align:middle" align="center">GPIO1</td>
         <td style="vertical-align:middle" align="center">I/O</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">D0</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">D1</td>
+        <td style="vertical-align:middle" align="center">D0</td>
+        <td style="vertical-align:middle" align="center">D1</td>
     </tr>
     <tr>
-        <td colspan="2" style="vertical-align:middle" align="center">TX/RX</td>
+        <td style="vertical-align:middle" align="center">TX/RX</td>
         <td style="vertical-align:middle" align="center">I</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">G0</td>
-        <td style="vertical-align:middle" align="center" bgcolor="#4285f4">G5</td>
+        <td style="vertical-align:middle" align="center">G0</td>
+        <td style="vertical-align:middle" align="center">G5</td>
     </tr>
 </table>
 
