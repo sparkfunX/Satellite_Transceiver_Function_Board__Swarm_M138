@@ -30,7 +30,7 @@ The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple b
 The board dimensions are illustrated in the drawing below. The listed measurements are in mm. The two mounting holes and two stand-offs are compatible with M2.5 screws.
 
 <center>
-[![Board Dimensions](./img/hookup_guide/Dimensions.png){ width="200" }](./img/hookup_guide/Dimensions.png)<br>
+[![Board Dimensions](./board_files/Dimensions.png){ width="200" }](./board_files/Dimensions.png)<br>
 *Board dimensions. (Click to enlarge)*
 </center>
 
@@ -47,15 +47,15 @@ There is no connection to pins that have a "-" under the primary function.
         <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
-        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
+        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Bottom<br>
             Pin
         </th>
-        <th rowspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
+        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:1rem;" width="10.0%">
             Top<br>
             Pin
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
+        <th style="text-align:center; vertical-align:middle; min-width:2rem;" width="40.0%">
             Function
         </th>
     </tr>
@@ -384,16 +384,16 @@ The table below provides an example for the [Artemis Processor Board](https://ww
             I/O<br>
             Direction
         </th>
-        <th rowspan="2" colspan="2" style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
+        <th rowspan="2" style="text-align:center; vertical-align:middle;min-width:2rem;" width="40.0%">
             Main Board's<br>
             Processor Pin
         </th>
     </tr>
     <tr>
-        <th rowspan="1" colspan="1" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Slot 0
         </th>
-        <th rowspan="1" colspan="1" style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
+        <th style="text-align:center; vertical-align:middle; min-width:1rem;" width="20.0%">
             Slot 1
         </th>
     </tr>
