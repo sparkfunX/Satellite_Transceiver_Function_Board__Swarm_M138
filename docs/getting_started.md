@@ -142,19 +142,25 @@ As a more professionally oriented product, we will skip over the more fundamenta
             <a href="https://learn.sparkfun.com/tutorials/satellite-transceiver-breakout---swarm-m138---hookup-guide">Satellite Transceiver Breakout - Swarm M138 - Hookup Guide<br>
             <img src="https://cdn.sparkfun.com//assets/parts/1/8/8/6/3/19236-Satellite_Transceiver_Breakout_-_Swarm_M138-05_HRc.jpg"></a>
         </td>
-        <td align="center">
-            <a href="https://learn.sparkfun.com/tutorials/908">How to Install CH340 Drivers<br>
-            <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/9/0/8/USB-to-serial_converter_CH340-closeup.jpg"></a>
-        </td>
+    </tr>
+    <tr>
         <td align="center">
             <a href="https://learn.sparkfun.com/tutorials/61">Installing the Arduino IDE<br>
             <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/1/arduinoThumb.jpg"></a>
         </td>
-    </tr>
-    <tr>
         <td align="center">
             <a href="https://learn.sparkfun.com/tutorials/1265">Installing Board Definitions in the Arduino IDE<br>
             <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/1/2/6/5/sparkfun_boards.PNG"></a>
+        </td>
+        <td align="center">
+            <a href="https://learn.sparkfun.com/tutorials/12">Installing an Arduino Library<br>
+            <img src="https://cdn.sparkfun.com/c/178-100/assets/b/e/4/b/2/50f04b99ce395fd95e000001.jpg"></a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <a href="https://learn.sparkfun.com/tutorials/908">How to Install CH340 Drivers<br>
+            <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/9/0/8/USB-to-serial_converter_CH340-closeup.jpg"></a>
         </td>
         <td align="center">
             <a href="https://learn.sparkfun.com/tutorials/5">How to Solder: Through-Hole Soldering<br>

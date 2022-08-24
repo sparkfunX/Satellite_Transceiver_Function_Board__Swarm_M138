@@ -15,7 +15,7 @@ VCC power for the Swarm M138 modem is connected via a MIC94064 High-Side Power S
 
 * By default, the modem power is turned off
 * Modem power can be enabled by pulling the **PWR_EN** pin high
-    * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. Please see the table in the **Hardware Overview** section for more details
+    * **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used. Please see the table in the **Product Manual - Hardware Overview** section for more details
 * Modem power can be disabled by pulling the **PWR_EN** pin low or leaving it unconnected
 * The **EN** split pad jumper can be soldered closed to permanently enable modem power
 
@@ -25,7 +25,7 @@ The modem has three very bright LEDs on it. These light up when power is applied
 
 If you are unable to power up your M138 modem and/or are unable to communicate with it, it may be because the M.2 contacts (gold fingers) are slightly out of alignment.
 
-Remove the screws, remove the function board, re-insert it while pushing it gently over to one side, and replace the screws. If you are still unable to communicate with the modem, repeat the process and gently push to the other side as you re-insert the board. Tighten both screws a little at a time to prevent the board from 'walking' out of alignment. Please see the table in the **Hardware Assembly** section for more details.
+Remove the screws, remove the function board, re-insert it while pushing it gently over to one side, and replace the screws. If you are still unable to communicate with the modem, repeat the process and gently push to the other side as you re-insert the board. Tighten both screws a little at a time to prevent the board from 'walking' out of alignment. Please see the **Product Manual - Hardware Assembly** section for more details.
 
 ### Swarm Satellite Communication
 

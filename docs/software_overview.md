@@ -41,7 +41,7 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 
 
 #### Install Board Definition
-Which board definition you needs depends on which MicroMod Processor Board you are using:
+Which board definition you need depends on which MicroMod Processor Board you are using:
 
 <table style="border-style:none">
     <tr>
@@ -123,7 +123,7 @@ The [SparkFun Swarm Satellite Arduino Library](https://github.com/sparkfun/Spark
 contains a full set of [tried and tested examples](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library/tree/main/examples)
 which will run on any of our MicroMod Processor Boards.
 
-The code below is a stripped-down version of Example3_getFirmwareVersion. Copy and paste the code into a new window in the Arduino IDE.
+The code below is a stripped-down version of **Example3_getFirmwareVersion**. Copy and paste the code into a new window in the Arduino IDE.
 Uncomment and adapt one of the ```#define swarmPowerEnablePin``` definitions to match your Main Board and Processor configuration:
 
 ```C++

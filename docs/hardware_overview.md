@@ -81,7 +81,7 @@ There is no connection to pins that have a "-" under the primary function.
         <td style="vertical-align:middle" align="center"><b>72</b></td>
         <td style="vertical-align:middle" align="center"><b>71</b></td>
         <td style="vertical-align:middle" align="center" bgcolor="#ea4335">PWR_EN</td>
-        <td style="vertical-align:middle" align="center">Power Enable<br>Pull high to<br>enable power</td>
+        <td style="vertical-align:middle" align="center"><b>Power Enable</b><br>Pull high to<br>enable power</td>
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
@@ -153,7 +153,7 @@ There is no connection to pins that have a "-" under the primary function.
         <td style="vertical-align:middle" align="center"><b>54</b></td>
         <td style="vertical-align:middle" align="center"><b>53</b></td>
         <td style="vertical-align:middle" align="center">TX/RX</td>
-        <td style="vertical-align:middle" align="center">Modem Transmit (High)<br>Receive (Low)</td>
+        <td style="vertical-align:middle" align="center"><b>Modem State</b><br>Transmit (High)<br>Receive (Low)</td>
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
@@ -177,7 +177,7 @@ There is no connection to pins that have a "-" under the primary function.
         <td style="vertical-align:middle" align="center"><b>48</b></td>
         <td style="vertical-align:middle" align="center"><b>47</b></td>
         <td style="vertical-align:middle" align="center">GPIO1</td>
-        <td style="vertical-align:middle" align="center">Modem GPIO1 pin</td>
+        <td style="vertical-align:middle" align="center"><b>Modem GPIO1</b><br>I/O pin</td>
     </tr>
     <tr>
         <td style="vertical-align:middle" align="center"></td>
