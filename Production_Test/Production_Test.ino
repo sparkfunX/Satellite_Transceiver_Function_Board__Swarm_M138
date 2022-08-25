@@ -18,7 +18,7 @@
   * Select the SparkFun Apollo3 \ Artemis MicroMod Processor
   * Connect the Main Board - Single to your computer via USB
   * Upload this sketch onto the Artemis
-  * OPen the Serial Monitor at 115200 baud to see the output
+  * Open the Serial Monitor at 115200 baud to see the output
   
   Test Procedure:
 
@@ -73,7 +73,7 @@ void loop()
   while (!modemBegun) // If the begin failed, keep trying to begin communication with the modem
   {
     Serial.println(F("Could not communicate with the modem. It may still be booting..."));
-    delay(2000);
+    delay(1000);
     modemBegun = mySwarm.begin(swarmSerial);
   }
 
@@ -116,14 +116,14 @@ void loop()
               Serial.println(F("TEST PASSED!"));
               digitalWrite(LED_BUILTIN, HIGH); // Turn the LED on
               testPassedOnce = true;
-              delay(1600);
+              delay(600);
             }
             else
             {
               if (!testPassedOnce)
               {
                 Serial.println(F("TEST FAILED! GPIO1 is high when it should be low. (Possible dry joint on GPIO1?)"));
-                delay(2000);
+                delay(1000);
               }
             }
           }
@@ -132,7 +132,7 @@ void loop()
             if (!testPassedOnce)
             {
               Serial.println(F("TEST FAILED! Could not set the GPIO1 pin mode to SWARM_M138_GPIO1_OUTPUT_LOW. (Possible TXI/RXO pin error?)"));                
-              delay(2000);
+              delay(1000);
             }
           }
         }
@@ -141,7 +141,7 @@ void loop()
           if (!testPassedOnce)
           {
             Serial.println(F("TEST FAILED! GPIO1 is low when it should be high. (Possible dry joint on GPIO1?)"));          
-            delay(2000);
+            delay(1000);
           }
         }
       }
@@ -150,14 +150,14 @@ void loop()
         if (!testPassedOnce)
         {
           Serial.println(F("TEST FAILED! Could not set the GPIO1 pin mode to SWARM_M138_GPIO1_OUTPUT_HIGH. (Possible TXI/RXO pin error?)"));    
-          delay(2000);
+          delay(1000);
         }
       }
     }
   }
   else
   {
-    Serial.println(F("TEST FAILED! Could not read the firmware version. (Possible TXI/RXO pin error?)"));
-    delay(2000);
+    Serial.println(F("TEST FAILED! Could not read the firmware version. (Possible TXO/RXI pin error?)"));
+    delay(1000);
   }
 }
