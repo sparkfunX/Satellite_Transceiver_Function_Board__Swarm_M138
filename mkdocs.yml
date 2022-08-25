@@ -76,7 +76,7 @@ extra:
       link: https://twitter.com/sparkfun
   
 nav:
-  - SparkX Swarm MicroMod Function Board: index.md
+  - SparkX Satellite Transceiver Function Board: index.md
   - Product Manual:
     - Getting Started: getting_started.md
     - Hardware Overview: hardware_overview.md

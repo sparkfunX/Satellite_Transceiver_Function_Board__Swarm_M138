@@ -22,7 +22,7 @@ All of our designs are open-source! Please help us make it better.
 
 * Our board design files are contained in the [`Hardware` folder](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138/tree/main/Hardware) of the [SparkX Satellite Transceiver Function Board - Swarm M138](https://github.com/sparkfunX/Satellite_Transceiver_Function_Board__Swarm_M138) repository. 
 
-### Sumbit a Design Improvement
+### Submit a Design Improvement
 
 1. Fork this repo
 2. Add your design improvements

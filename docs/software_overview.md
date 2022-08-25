@@ -1,4 +1,4 @@
-### Arduino IDE
+## Arduino IDE
 
 !!! note
     For first-time users, who have never programmed before and are looking to use the Arduino IDE, we recommend beginning with the <a href="https://www.sparkfun.com/products/15631">SparkFun Inventor's Kit (SIK)</a>, which includes a simpler board like the <a href="https://www.sparkfun.com/products/11224">Arduino Uno</a> or <a href="https://www.sparkfun.com/products/15123">SparkFun RedBoard</a> and is designed to help users get started programming with the Arduino IDE.
@@ -40,7 +40,7 @@ Most users may already be familiar with the Arduino IDE and its use. However, fo
 </table>
 
 
-#### Install Board Definition
+## Install Board Definition
 Which board definition you need depends on which MicroMod Processor Board you are using:
 
 <table style="border-style:none">
@@ -91,6 +91,7 @@ Which board definition you need depends on which MicroMod Processor Board you ar
         </td>
     </tr>
     <tr>
+        <center>
         <td align="center">
             <a class="thumb" href="https://learn.sparkfun.com/tutorials/1401">
                 <center><img src="https://cdn.sparkfun.com/c/178-100/assets/learn_tutorials/1/4/0/1/MicroMod_nRF52840-Thumb.jpg" alt="MicroMod nRF52840 Processor Hookup Guide" height="140">
@@ -98,10 +99,11 @@ Which board definition you need depends on which MicroMod Processor Board you ar
                 <h3 class="title">MicroMod nRF52840 Processor Hookup Guide</h3>
             </a>
         </td>
+        </center>
     </tr>
 </table>
 
-### SparkFun Swarm Satellite Arduino Library
+## SparkFun Swarm Satellite Arduino Library
 
 Our [SparkFun Swarm Satellite Arduino Library](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library) contains over 20 examples to get you up and running with Swarm Satellite and the M138 modem.
 
@@ -117,7 +119,7 @@ You can also download the latest library manually if you want to:
 [SparkFun Swarm Satellite Arduino Library (Zip)](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library/archive/refs/heads/main.zip){ .md-button .md-button--primary }
 </center>
 
-### Adapting the Library Examples to the SparkX Satellite Transceiver Function Board - Swarm M138
+## Adapting the Library Examples to the SparkX Satellite Transceiver Function Board - Swarm M138
 
 The [SparkFun Swarm Satellite Arduino Library](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library)
 contains a full set of [tried and tested examples](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library/tree/main/examples)

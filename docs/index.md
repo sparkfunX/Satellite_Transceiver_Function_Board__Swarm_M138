@@ -13,7 +13,7 @@
 
 The [SparkX Satellite Transceiver Function Board - Swarm M138 (SPX-20107)](https://www.sparkfun.com/products/20107) is an adapter board which allows you to add Swarm Satellite connectivity
 to your [MicroMod](https://www.sparkfun.com/micromod) project. It is designed to be plugged into the [MicroMod Main Board - Single](https://www.sparkfun.com/products/18575)
-or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18575). You can then install the Swarm M138 satellite modem and communicate using our dedicated 
+or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18576). You can then install the Swarm M138 satellite modem and communicate using our dedicated 
 [Swarm Satellite Arduino Library](https://github.com/sparkfun/SparkFun_Swarm_Satellite_Arduino_Library).
 
 !!! note

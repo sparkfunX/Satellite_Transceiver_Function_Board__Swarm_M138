@@ -21,13 +21,15 @@ VCC power for the Swarm M138 modem is connected via a MIC94064 High-Side Power S
 
 The modem has three very bright LEDs on it. These light up when power is applied. If the LEDs are lit, then **PWR_EN** is high and the high-side switch is enabled.
 
+Some MicroMod Processor Boards do not have a GPIO pin connected to **PWR_EN**. If you are using one of these boards, solder the **EN** jumper closed to power the modem
+
 ### Power and UART Communication
 
 If you are unable to power up your M138 modem and/or are unable to communicate with it, it may be because the M.2 contacts (gold fingers) are slightly out of alignment.
 
 Remove the screws, remove the function board, re-insert it while pushing it gently over to one side, and replace the screws. If you are still unable to communicate with the modem, repeat the process and gently push to the other side as you re-insert the board. Tighten both screws a little at a time to prevent the board from 'walking' out of alignment. Please see the **Product Manual - Hardware Assembly** section for more details.
 
-### Swarm Satellite Communication
+## Swarm Satellite Communication
 
 Swarm have provided excellent advice about ensuring a good satellite signal. Please see this guest blog post for more details:
 

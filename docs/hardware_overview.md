@@ -450,17 +450,17 @@ Power for the Swarm M138 modem is drawn from the MicroMod **VCC** pins. The mode
 
 Power for the Swarm M138 modem is connected via a MIC94064 High-Side Power Switch.
 
+<center>    
+[![High-Side Power Switch](./img/hookup_guide/high_side_switch.png){ width="200" }](./img/hookup_guide/high_side_switch.png)<br>
+*The high-side power switch. (Click to enlarge)*
+</center>
+
 Modem power can be disabled by pulling the **PWR_EN** pin low or leaving it unconnected. By default, the modem power is turned off. 
 
 Modem power can be enabled by pulling the **PWR_EN** pin high. **PWR_EN** is connected to the MicroMod Processor - the exact pin depends on which Main Board and Processor Board are being used.
 See the [table above](#example-pin-connection-table) for example pins.
 
 If required, the **EN** split pad jumper can be soldered closed to permanently enable modem power.
-
-<center>    
-[![High-Side Power Switch](./img/hookup_guide/high_side_switch.png){ width="200" }](./img/hookup_guide/high_side_switch.png)<br>
-*The high-side power switch. (Click to enlarge)*
-</center>
 
 ## Current Consumption
 
@@ -471,7 +471,19 @@ When the **PWR_EN** pin is pulled low, the modem is powered off completely. The 
 
 ## Jumpers
 
+!!! note
+    <p>Never modified a jumper before? Check out our <a href="https://learn.sparkfun.com/tutorials/664">Jumper Pads and PCB Traces tutorial</a> for a quick introduction!</p>
+    <p align="center">
+        <a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
+        <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg"></a>
+    </p>
+
 There are three jumpers on the back of the board that can be used to modify how the board functions.
+
+<center>
+[![Jumpers](./img/hookup_guide/jumpers.png){ width="200" }](./img/hookup_guide/jumpers.png)<br>
+*The jumpers on the back of the function board. (Click to enlarge)*
+</center>
 
 * **GPIO1** - This is a double-jumper which connects pull-up and/or pull-down resistors to the modem's GPIO1 pin.
     * By default, the 100K pull-up resistor is connected so that a logic high is output when GPIO1 is in one of its "open drain" output modes
@@ -484,15 +496,3 @@ There are three jumpers on the back of the board that can be used to modify how 
 * **EWP** - This jumper can be closed to disable the EEPROM write protection
     * By default, the EEPROM is write protected. The **WP** pin is pulled up by a 100K resistor
     * Soldering the **EWP** jumper closed will pull **WP** low, disabling write protection
-
-!!! note
-    <p>Never modified a jumper before? Check out our <a href="https://learn.sparkfun.com/tutorials/664">Jumper Pads and PCB Traces tutorial</a> for a quick introduction!</p>
-    <p align="center">
-        <a href="https://learn.sparkfun.com/tutorials/664">How to Work with Jumper Pads and PCB Traces<br>
-        <img src="https://cdn.sparkfun.com/c/264-148/assets/learn_tutorials/6/6/4/PCB_TraceCutLumenati.jpg"></a>
-    </p>
-
-<center>
-[![Jumpers](./img/hookup_guide/jumpers.png){ width="200" }](./img/hookup_guide/jumpers.png)<br>
-*The jumpers on the back of the function board. (Click to enlarge)*
-</center>

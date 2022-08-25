@@ -2,7 +2,7 @@
 
 To begin, the SparkX Satellite Transceiver Function Board needs to be mounted on your chosen [MicroMod](https://www.sparkfun.com/micromod) main board.
 It is designed to be plugged into the [MicroMod Main Board - Single](https://www.sparkfun.com/products/18575)
-or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18575).
+or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18576).
 
 !!! note
     <p>If you have not already, make sure to check out the <a href="https://learn.sparkfun.com/tutorials/getting-started-with-micromod#hardware-hookup">Getting Started with MicroMod: Hardware Hookup</a> for information on inserting your Processor and Function Boards to the Main Board.</p>
@@ -49,7 +49,7 @@ After securing the modem, your setup should look like the image below.
 
 The M138 modem requires two antennas: one for **VHF** (to communicate with the Swarm satellites) and a separate one for **GPS** (GNSS, for satellite location). Both are connected via u.FL.
 
-Good ahead and attach both antenna connections. For your MicroMod project, you may find it useful to use u.FL-to-SMA adapter cables.
+Go ahead and attach both antenna connections. For your MicroMod project, you may find it useful to use u.FL-to-SMA adapter cables.
 SMA connectors are much more robust than u.FL and can be mounted on your project enclosure ("bulkhead" connections).
 
 !!! note

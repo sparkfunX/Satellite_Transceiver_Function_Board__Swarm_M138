@@ -12,7 +12,7 @@ To get started, users will need a few items. Now some users may have a few of th
 * [Interface Cable SMA to U.FL](https://www.sparkfun.com/products/9145)
 * [Magnetic Mount SMA - 2m](https://www.sparkfun.com/products/19576)
 * [SMA Male to SMA Female - 10m (RG174)](https://www.sparkfun.com/products/17495)
-* [USB 3.1 Cable A to C - 3 Foot](https://www.sparkfun.com/products/14743) - The USB interface serves two purposes: it powers the board and allows users to upload programs. (*\*If your computer doesn't have a USB-A slot, then choose an appropriate cable or adapter.*)
+* [USB 3.1 Cable A to C - 3 Foot](https://www.sparkfun.com/products/14743) - The Main Board USB interface serves two purposes: it powers the board and allows users to upload programs. (*\*If your computer doesn't have a USB-A slot, then choose an appropriate cable or adapter.*)
 * Computer with an operating system (OS) that is compatible with all the software installation requirements.
 
 <table style="border-style:none">
@@ -51,7 +51,7 @@ To get started, users will need a few items. Now some users may have a few of th
     </tr>
 </table>
 
-### Li-Po Battery
+## Li-Po Battery
 <p>For mobile applications, users will want to pick up a <a href="https://www.sparkfun.com/categories/54">single-cell LiPo battery</a> from our catalog. Below, are a few available options:</p>
 
 <table style="border-style:none">
@@ -82,7 +82,7 @@ To get started, users will need a few items. Now some users may have a few of th
     </tr>
 </table>
 
-### Jumper Modification
+## Jumper Modification
 <p>To modify the jumpers, users will need <a href="https://www.sparkfun.com/categories/49">soldering equipment</a> and/or a <a href="https://www.sparkfun.com/categories/379">knife</a>.</p>
 
 
@@ -138,10 +138,12 @@ As a more professionally oriented product, we will skip over the more fundamenta
 
 <table style="border-style:none">
     <tr>
+        <center>
         <td align="center">
             <a href="https://learn.sparkfun.com/tutorials/satellite-transceiver-breakout---swarm-m138---hookup-guide">Satellite Transceiver Breakout - Swarm M138 - Hookup Guide<br>
             <img src="https://cdn.sparkfun.com//assets/parts/1/8/8/6/3/19236-Satellite_Transceiver_Breakout_-_Swarm_M138-05_HRc.jpg"></a>
         </td>
+        </center>
     </tr>
     <tr>
         <td align="center">
