@@ -29,9 +29,9 @@ Repository Contents
 
 * **[/docs](/docs/)** - Online documentation files
     * [board_files](/docs/board_files/) - Files for the product design
-        * [Eagle design files](/docs/board_files/eagle_files.zip) (.zip)
-        * [Schematic](/docs/board_files/schematic.pdf) (.pdf)
-        * [Dimensions](/docs/board_files/dimensions.pdf) (.pdf)
+        * [Eagle design files](/docs/board_files/Satellite_Transceiver_Function_Board__Swarm_M138_x04.zip) (.zip)
+        * [Schematic](/docs/board_files/Schematic.pdf) (.pdf)
+        * [Dimensions](/docs/board_files/Dimensions.png) (.png)
     * [img/hookup_guide/](/docs/img/hookup_guide/) - Images for hookup guide documentation
 * **[/Hardware](/Hardware/)** - Eagle design files (.brd, .sch)
 
