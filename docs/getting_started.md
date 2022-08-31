@@ -19,7 +19,7 @@ To get started, users will need a few items. Now some users may have a few of th
     <tr>
         <td>
             <a href="https://www.sparkfun.com/products/20107">
-                <center><img src="" alt="Satellite Transceiver Function Board - Swarm M138" height="140"></center>
+                <center><img src="https://cdn.sparkfun.com/assets/parts/1/9/8/7/6/20107_Satellite_Transceiver_Function_Board_-_Swarm_01.jpg" alt="Satellite Transceiver Function Board - Swarm M138" height="140"></center>
                 <h3 class="title">Satellite Transceiver Function Board - Swarm M138</h3>
             </a>
             SPX-20107

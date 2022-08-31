@@ -20,7 +20,7 @@ or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18576). You 
     **The Swarm M138 modem is not included with the function board.** You will need to purchase the [Satellite Transceiver Breakout - Swarm M138 (SPX-19236)](https://www.sparkfun.com/products/19236) separately to obtain the modem, antenna and ground plane.
 
 <center>
-[![SparkX Swarm MicroMod Function Board](https://cdn.sparkfun.com/assets/parts/1/9/8/7/6/20107_Satellite_Transceiver_Function_Board_-_Swarm_01.jpg)](https://www.sparkfun.com/products/20107)
+[![SparkX Swarm MicroMod Function Board](./img/hookup_guide/FB.jpg)](https://www.sparkfun.com/products/20107)
 <br>
 ### [SparkX Swarm MicroMod Function Board (SPX-20107)](https://www.sparkfun.com/products/20107)
 </center>

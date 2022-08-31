@@ -21,7 +21,7 @@ Insert the function board at an angle into the M.2 connector. The board will sti
 Hold down the board, insert the screws, and start to tighten. Once the screws make contact with the circuit board, tighten each one just a little and then swap to the other.
 By swapping between the two screws and tightening each one a little at a time, you can prevent the function board from 'walking' out of alignment.
 
-!!! warning
+!!! attention
     If you are unable to power up your M138 modem and communicate with it, it may be because the M.2 contacts (gold fingers) are slightly out of alignment. Remove the screws, remove the function board, re-insert it while pushing it gently over to one side, and replace the screws. If you are still unable to communicate with the modem, repeat the process and gently push to the other side as you re-insert the board. Tighten both screws a little at a time to prevent the board from 'walking' out of alignment.
 
 <center>
