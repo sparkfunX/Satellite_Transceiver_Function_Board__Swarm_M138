@@ -14,7 +14,7 @@ or [MicroMod Main Board - Double](https://www.sparkfun.com/products/18576).
 Insert the function board at an angle into the M.2 connector. The board will stick up at an angle (at around 25°).
 
 <center>
-[![Function Board Insertion](./img/hookup_guide/FB_insert.png){ width="200" }](./img/hookup_guide/FB_insert.png)<br>
+[![Function Board Insertion](./img/hookup_guide/FB_insert.jpg){ width="200" }](./img/hookup_guide/FB_insert.jpg)<br>
 *Inserting the function board. (Click to enlarge)*
 </center>
 
@@ -24,6 +24,11 @@ By swapping between the two screws and tightening each one a little at a time, y
 !!! warning
     If you are unable to power up your M138 modem and communicate with it, it may be because the M.2 contacts (gold fingers) are slightly out of alignment. Remove the screws, remove the function board, re-insert it while pushing it gently over to one side, and replace the screws. If you are still unable to communicate with the modem, repeat the process and gently push to the other side as you re-insert the board. Tighten both screws a little at a time to prevent the board from 'walking' out of alignment.
 
+<center>
+[![Function Board Insertion](./img/hookup_guide/FB_insert_2.jpg){ width="200" }](./img/hookup_guide/FB_insert_2.jpg)<br>
+*Inserting the function board. (Click to enlarge)*
+</center>
+
 ## Step 2: Mount the Swarm M138 Modem
 
 Now it is time to insert and secure the M138 modem.
@@ -31,7 +36,7 @@ Now it is time to insert and secure the M138 modem.
 Insert the modem at an angle into the M.2 connector. The modem will stick up at an angle (at around 25°).
 
 <center>
-[![Modem Insertion](./img/hookup_guide/modem_insert.png){ width="200" }](./img/hookup_guide/modem_insert.png)<br>
+[![Modem Insertion](./img/hookup_guide/modem_insert.jpg){ width="200" }](./img/hookup_guide/modem_insert.jpg)<br>
 *Inserting the modem. (Click to enlarge)*
 </center>
 
@@ -41,7 +46,7 @@ By swapping between the two and tightening each one a little at a time, you can 
 After securing the modem, your setup should look like the image below.
 
 <center>
-[![Completed Assembly](./img/hookup_guide/assembly.png){ width="200" }](./img/hookup_guide/assembly.png)<br>
+[![Completed Assembly](./img/hookup_guide/assembly.jpg){ width="200" }](./img/hookup_guide/assembly.jpg)<br>
 *The function board and modem, assembled. (Click to enlarge)*
 </center>
 

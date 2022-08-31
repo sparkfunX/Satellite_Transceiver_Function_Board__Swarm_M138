@@ -25,6 +25,13 @@ The SparkX Satellite Transceiver Function Board - Swarm M138 is quite a simple b
 * **`EEPROM`** - Like all MicroMod Function Boards, a small EEPROM is provided
     * The Processor Board can read the EEPROM to discover which Function Boards are connected
 
+## Board Images
+
+<center>
+[![Board Dimensions](./img/hookup_guide/FB_Top.jpg){ width="200" }](./img/hookup_guide/FB_Top.jpg)  [![Board Dimensions](./img/hookup_guide/FB_Bottom.jpg){ width="200" }](./img/hookup_guide/FB_Bottom.jpg)<br>
+*Board images. (Click to enlarge)*
+</center>
+
 ## Board Dimensions
 
 The board dimensions are illustrated in the drawing below. The listed measurements are in mm. The two mounting holes and two stand-offs are compatible with M2.5 screws.
