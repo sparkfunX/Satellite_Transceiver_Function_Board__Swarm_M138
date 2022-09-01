@@ -37,7 +37,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide (mkdocs)](http://docs.sparkfunx.com/Satellite_Transceiver_Function_Board__Swarm_M138/)** - Hookup guide for the SparkX Satellite Transceiver Function Board - Swarm M138 hosted by GitHub pages.
+* **[Hookup Guide (mkdocs)](https://sparkfunx.github.io/Satellite_Transceiver_Function_Board__Swarm_M138/)** - Hookup guide for the SparkX Satellite Transceiver Function Board - Swarm M138 hosted by GitHub pages.
 
 Product Versions
 ----------------
