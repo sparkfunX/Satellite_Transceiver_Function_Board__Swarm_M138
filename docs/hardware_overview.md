@@ -476,6 +476,18 @@ For more details, please consult the [Satellite Transceiver Breakout - Swarm M13
 
 When the **PWR_EN** pin is pulled low, the modem is powered off completely. The MIC94064 has a very low quiescent current of 2&micro;A.
 
+## EEPROM
+
+Like all MicroMod Function Boards, the board includes a small serial (I<sup>2</sup>C) EEPROM.
+This can be programmed with a 'signature' to allow the Processor Board to detect which boards are installed.
+
+<center>    
+[![EEPROM](./img/hookup_guide/eeprom.png){ width="200" }](./img/hookup_guide/eeprom.png)<br>
+*The EEPROM. (Click to enlarge)*
+</center>
+
+By default, the EEPROM is write protected. The **WP** pin is pulled up by a 100K resistor. Soldering the **EWP** jumper closed will pull **WP** low, disabling write protection.
+
 ## Jumpers
 
 !!! note
