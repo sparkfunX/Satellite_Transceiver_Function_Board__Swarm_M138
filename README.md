@@ -12,7 +12,7 @@ SparkX Satellite Transceiver Function Board - Swarm M138
     <img src="https://img.shields.io/twitter/follow/sparkfun.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
 </p>
 
-[![SparkX Satellite Transceiver Function Board - Swarm M138](https://cdn.sparkfun.com/assets/parts/1/9/8/7/6/20107_Satellite_Transceiver_Function_Board_-_Swarm_01.jpg)](https://www.sparkfun.com/products/20107)
+[![SparkX Satellite Transceiver Function Board - Swarm M138](https://cdn.sparkfun.com//assets/parts/1/9/8/7/6/20107_Swarm-_01.jpg)](https://www.sparkfun.com/products/20107)
 
 *[SparkX Satellite Transceiver Function Board - Swarm M138 (SPX-20107)](https://www.sparkfun.com/products/20107)*
 
